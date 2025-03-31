@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shell House</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <!-- <i class="fas fa-utensils"></i> -->
+                <!-- <span>Shell House</span> -->
+                 <img src="images/shellhouse-removebg-preview.png" alt="" style="width: 30%;">
+            </div>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links hidden">
+                <li><a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="#menu" class="nav-link"><i class="fas fa-utensils"></i> Menu</a></li>
+                <li><a href="#gallery" class="nav-link"><i class="fas fa-images"></i> Gallery</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-phone"></i>Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Welcome to Shell House</h1>
+            <p>Experience the finest dining in Abu Dhabi</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="cta-button">Explore Menu</a>
+                <a href="#contact" class="cta-button secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-text" data-aos="fade-right">
+                <h2>About Shell House Restaurant</h2>
+                <p>Discover the perfect blend of traditional and modern cuisine at Shell House Restaurant. We take pride in serving authentic dishes made with the finest ingredients and love.</p>
+                <div class="features">
+                    <div class="feature">
+                        <i class="fas fa-utensils"></i>
+                        <h3>Fine Dining</h3>
+                        <p>Experience luxury dining at its finest</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-award"></i>
+                        <h3>Award Winning</h3>
+                        <p>Recognized for culinary excellence</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-clock"></i>
+                        <h3>Open Daily</h3>
+                        <p>Serving you 7 days a week</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image" data-aos="fade-left">
+                <img src="images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Restaurant Interior">
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2 data-aos="fade-up">Our Special Menu</h2>
+        <div class="menu-categories">
+            <!-- <button class="menu-category active" data-category="all">Items</button>
+            <button class="menu-category" data-category="starters">Starters</button>
+            <button class="menu-category" data-category="desserts">Desserts</button> -->
+        </div>
+        <div class="menu-grid">
+            <div class="menu-item" data-category="main" data-aos="fade-up">
+                <img src="images/sanket-shah-eEWlcfydzQ4-unsplash.jpg" alt="Special Biryani">
+                <div class="menu-item-content">
+                    <h3>Special Biryani</h3>
+                    <p class="description"></p>
+                    <p class="price">14.00 AED</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="main" data-aos="fade-up" data-aos-delay="100">
+                <img src="images/food menu/golden prawns.jpg" alt="Golden prawns">
+                <div class="menu-item-content">
+                    <h3>Goldan Prawns</h3>
+                    <p class="description"></p>
+                    <p class="price">25.00 AED</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="desserts" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/shreyak-singh-0j4bisyPo3M-unsplash.jpg" alt="Chocolate Paradise">
+                <div class="menu-item-content">
+                    <h3>Beef Biryani</h3>
+                    <p class="description"></p>
+                    <p class="price">16.00 AED</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="desserts" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/shreyak-singh-0j4bisyPo3M-unsplash.jpg" alt="Chocolate Paradise">
+                <div class="menu-item-content">
+                    <h3>Beef Biryani</h3>
+                    <p class="description"></p>
+                    <p class="price">16.00 AED</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="desserts" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/food menu/dragon-chicken.jpg" alt="dragon chicken">
+                <div class="menu-item-content">
+                    <h3>Dragon Chicken</h3>
+                    <p class="description"></p>
+                    <p class="price">18.00 AED</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="menu-item" data-category="desserts" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/food menu/charcoal pollichad.jpg" alt="Chhickan Charcol">
+                <div class="menu-item-content">
+                    <h3>Chickan Charcol</h3>
+                    <p class="description"></p>
+                    <p class="price">21/40 AED</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2 data-aos="fade-up">Our Gallery</h2>
+        <div class="gallery-categories">
+            <button class="gallery-category active" data-category="all">All</button>
+            <button class="gallery-category" data-category="food">Food</button>
+            <button class="gallery-category" data-category="juice">Juice</button>
+            <!-- <button class="gallery-category" data-category="events">Events</button> -->
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-category="food" data-aos="zoom-in">
+                <img src="images/food menu/tender-fish.jpg" alt="Restaurant Interior">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Tender Fish</h3>    
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="food" data-aos="zoom-in">
+                <img src="images/victoria-shes-UC0HZdUitWY-unsplash.jpg" alt="Food Presentation">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Culinary Excellence</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="food" data-aos="zoom-in">
+                <img src="images/food menu/arabic-fish.jpg" alt="Special Dish">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Arabic Fish</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="food" data-aos="zoom-in">
+                <img src="images/food menu/beef biriyani.jpg" alt="Special Dish">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Beef Biriyani</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="foojuiceata-aos" data-aos="zoom-in">
+                <img src="images/food menu/charcoal pollichad.jpg" alt="Special Dish">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Charcol Pllichadu</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="food" data-aos="zoom-in">
+                <img src="images/food menu/chicken-65.jpg" alt="Special Dish">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Chicken 65</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="food" data-aos="zoom-in">
+                <img src="images//food menu/dragon-chicken.jpg" alt="Special Dish">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Dragon Chicken</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="food" data-aos="zoom-in">
+                <img src="images/food menu/golden prawns.jpg" alt="Special Dish">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Golden Prawns</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="food" data-aos="zoom-in">
+                <img src="images/food menu/pepper-fish-2.jpg" alt="Special Dish">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Pepper Fish</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="juice" data-aos="zoom-in">
+                <img src="images/juice menu/apple.jpg" alt="Special Dish">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Apple Juice</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="juice" data-aos="zoom-in">
+                <img src="images/juice menu/avacado.jpg" alt="Special Dish">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Avacado Shake</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="juice" data-aos="zoom-in">
+                <img src="images/juice menu/orange.jpg" alt="Special Dish">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Orange</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="juice" data-aos="zoom-in">
+                <img src="images/juice menu/pinapple.jpg" alt="Special Dish">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Pinapple</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="juice" data-aos="zoom-in">
+                <img src="images/juice menu/strawberry-3.jpg" alt="Special Dish">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Strawberry</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-content" data-aos="fade-up">
+            <h2>Contact Us</h2>
+            <p>Visit us or get in touch</p>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+971 052 939 9200</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Musafa, Abu Dhabi</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Opening Hours</h3>
+                    <p>11:00 AM - 11:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Shell House</h3>
+                <p>Experience the finest dining in Abu Dhabi</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <p>&copy; 2025 Shell House Restaurant. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
