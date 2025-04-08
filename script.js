@@ -189,10 +189,10 @@ galleryImages.forEach(item => {
         
         const imageInfo = item.querySelector('.gallery-info').cloneNode(true);
         
-        fullscreenOverlay.appendChild(closeBtn);
-        fullscreenOverlay.appendChild(image);
-        fullscreenOverlay.appendChild(imageInfo);
-        document.body.appendChild(fullscreenOverlay);
+        // fullscreenOverlay.appendChild(closeBtn);
+        // fullscreenOverlay.appendChild(image);
+        // fullscreenOverlay.appendChild(imageInfo);
+        // document.body.appendChild(fullscreenOverlay);
         
         // Prevent body scrolling when overlay is open
         document.body.style.overflow = 'hidden';
